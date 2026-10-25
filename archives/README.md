@@ -1,7 +1,7 @@
 # Historical archives
 
 These immutable archives were imported from
-[arithmetic_voronoi at ab845e4](https://github.com/dimpase/arithmetic_voronoi/tree/ab845e44ab33d9e46d88f27c33a795ae09b0fbef).
+[ArithmeticVoronoi at ab845e4](https://github.com/dimpase/ArithmeticVoronoi.jl/tree/ab845e44ab33d9e46d88f27c33a795ae09b0fbef).
 Their payloads and checksum manifests are unchanged. Paths inside the archives
 and historical receipts describe the original delivery. The engine never
 selects these archives automatically.
@@ -38,7 +38,7 @@ julia --startup-file=no --project=archives/dataset/arithmetic_groups_dataset_v1/
 Add `--complete` to the last command to replay geometric certificates and
 Tietze maps. Neither verification mode needs a C++ executable. Keep extracted
 files unchanged so the dataset manifest remains valid. See the engine's
-[dataset schema](https://github.com/dimpase/arithmetic_voronoi/blob/main/DATASET_SCHEMA.md)
+[dataset schema](https://github.com/dimpase/ArithmeticVoronoi.jl/blob/main/DATASET_SCHEMA.md)
 for the strength of each verification mode.
 
 To restore the D5/D8 fixtures for the optional engine integration tests, run
@@ -51,4 +51,4 @@ python3 scripts/restore_fixtures.py --data-root /absolute/path/to/ArithmeticVoro
 The script checks the manifest and every file hash, and refuses to overwrite
 different data. Restoration is explicit; new engine computations do not use
 these fixtures. Engine integration tests are documented in its
-[user guide](https://github.com/dimpase/arithmetic_voronoi/blob/main/USER_GUIDE.md#tests).
+[user guide](https://github.com/dimpase/ArithmeticVoronoi.jl/blob/main/USER_GUIDE.md#tests).

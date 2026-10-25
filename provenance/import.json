@@ -81,5 +81,6 @@
       "bytes": 2478,
       "sha256": "39ad7daaaea01fd2fdc982ffe9c25e96a4b021d556e36ade012ba56c6481ebb6"
     }
-  ]
+  ],
+  "source_mirror_repository": "https://github.com/dimpase/ArithmeticVoronoi.jl"
 }

@@ -1,7 +1,7 @@
 # ArithmeticVoronoiData
 
 An explicit library of **precomputed** arithmetic-group presentations, maintained
-separately from the [ArithmeticVoronoi engine](https://github.com/dimpase/arithmetic_voronoi).
+separately from the [ArithmeticVoronoi engine](https://github.com/dimpase/ArithmeticVoronoi.jl).
 Neither package depends on the other. This package also has no dependency on
 OSCAR, HAP or Magma. It is not registered yet.
 
