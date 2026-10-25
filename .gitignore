@@ -1,0 +1,4 @@
+/Manifest.toml
+__pycache__/
+*.py[cod]
+/archives/dataset/arithmetic_groups_dataset_v1/

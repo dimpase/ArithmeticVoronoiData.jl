@@ -1,0 +1,85 @@
+{
+  "source_repository": "https://github.com/dimpase/arithmetic_voronoi",
+  "source_commit": "ab845e44ab33d9e46d88f27c33a795ae09b0fbef",
+  "note": "Original file checksums at import; package documentation and tests may subsequently change. Data payloads and archive manifests are unchanged.",
+  "files": [
+    {
+      "source_path": "lib/ArithmeticVoronoiData/LICENSE",
+      "path": "LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "source_path": "lib/ArithmeticVoronoiData/Project.toml",
+      "path": "Project.toml",
+      "bytes": 318,
+      "sha256": "c193be57a8e4e0039a5a2cbb1c77da5138d95566e424ee4ce8232c03d0cfd8e4"
+    },
+    {
+      "source_path": "lib/ArithmeticVoronoiData/README.md",
+      "path": "README.md",
+      "bytes": 2370,
+      "sha256": "9c60215aaec1c5b80ed0dc75763b42911081418f3d20a74dac0e71d159b23cea"
+    },
+    {
+      "source_path": "lib/ArithmeticVoronoiData/data/imaginary_presentations.json",
+      "path": "data/imaginary_presentations.json",
+      "bytes": 87102,
+      "sha256": "aae02023b1ccfb14a7a287fe577b80ee10da7fe47a60cfcd6b30b5cf9ba6aa53"
+    },
+    {
+      "source_path": "lib/ArithmeticVoronoiData/data/native_presentations.json",
+      "path": "data/native_presentations.json",
+      "bytes": 462862,
+      "sha256": "6b7d05075ac3991f0ab874929ea567212514d5398f3bf990ad67e061355b5252"
+    },
+    {
+      "source_path": "lib/ArithmeticVoronoiData/data/page_presentations.json",
+      "path": "data/page_presentations.json",
+      "bytes": 22582,
+      "sha256": "45c3514b7a69806fe1e585f602237505b73f44980aac848d1c1f39e8f8abaac8"
+    },
+    {
+      "source_path": "lib/ArithmeticVoronoiData/src/ArithmeticVoronoiData.jl",
+      "path": "src/ArithmeticVoronoiData.jl",
+      "bytes": 3341,
+      "sha256": "b0f635c13dc2e5f40ace976a6ba4eed9737e2b6f09fb9d49f23c9e1ebedbc9b4"
+    },
+    {
+      "source_path": "lib/ArithmeticVoronoiData/test/runtests.jl",
+      "path": "test/runtests.jl",
+      "bytes": 1260,
+      "sha256": "7f41b97e69fc5e8d75fbf89baea83eb1df2b0d3bfa45986c9ed62ff1c7a2feb3"
+    },
+    {
+      "source_path": "test/fixtures/two_cells_v1.tar.gz",
+      "path": "archives/fixtures/two_cells_v1.tar.gz",
+      "bytes": 760572,
+      "sha256": "0a55ac6103f0fd0efdec17ec0f61f365f0c53506ace5ec425b854a7886ffda51"
+    },
+    {
+      "source_path": "test/fixtures/two_cells_v1.json",
+      "path": "archives/fixtures/two_cells_v1.json",
+      "bytes": 42140,
+      "sha256": "25a92c688819385a0dea80ef24bb556a866ba4fc0d765193e6aae8e7193be116"
+    },
+    {
+      "source_path": "results/dataset/arithmetic_groups_dataset_v1.tar.gz",
+      "path": "archives/dataset/arithmetic_groups_dataset_v1.tar.gz",
+      "bytes": 9043795,
+      "sha256": "fd6170e82af7e36a4892b39878502c9411ce58491d027cee53bf2afa30d9d248"
+    },
+    {
+      "source_path": "results/dataset/archive_manifest.json",
+      "path": "archives/dataset/archive_manifest.json",
+      "bytes": 757,
+      "sha256": "c50fcf7ae6e22bff4c78bb53e0bd1c4a1279dad19b80c6f2a5060d9343b340c4"
+    },
+    {
+      "source_path": "results/fields_portable_verification.json",
+      "path": "archives/fields_portable_verification.json",
+      "bytes": 2478,
+      "sha256": "39ad7daaaea01fd2fdc982ffe9c25e96a4b021d556e36ade012ba56c6481ebb6"
+    }
+  ]
+}

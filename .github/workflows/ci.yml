@@ -1,0 +1,35 @@
+name: Test recorded-results library
+
+"on":
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    name: Julia ${{ matrix.julia }} (no engine dependencies)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        julia: ['1.10', '1.13']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: julia-actions/setup-julia@v3
+        with:
+          version: ${{ matrix.julia }}
+      - name: Test presentation catalogue
+        run: julia --startup-file=no --project=. -e 'using Pkg; Pkg.instantiate(); Pkg.test()'
+
+  archives:
+    name: LFS archives and import checksums
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: true
+      - run: python3 scripts/verify_archives.py
